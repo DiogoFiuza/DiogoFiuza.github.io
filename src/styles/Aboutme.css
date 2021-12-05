@@ -1,0 +1,97 @@
+/* importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Ubuntu&display=swap');
+
+.aboutMe_title {
+  margin-top: 180px;
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #5B438F;
+
+  text-shadow: 0px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.line_below_title {
+  margin-left: 30%;
+  margin-right: 30%;
+  opacity: 0.6;
+  border: 1px solid rgba(91, 67, 143, 0.8);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.aboutMe_container{
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 5%;
+  background: #C4C4C4;
+  border-radius: 60px;
+  display: flex;
+}
+
+.aboutme_text{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 35px;
+  text-align: justify;
+  color: #000000;
+
+  margin-top: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.aboutMe {
+  margin-left: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe img{
+  margin-top: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+  width: 15em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.name{
+  margin-top: 10px;
+  font-family: Overlock;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #5B438F;
+}
+
+.title {
+  /* left: 4.72%; */
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.curriculo_button{
+  justify-content: center;
+  padding: 5px;
+  width: 200px;
+  margin-top: 5%;
+  margin-left: 34%;
+}
+
+.download_icon {
+  height: 20px;
+}

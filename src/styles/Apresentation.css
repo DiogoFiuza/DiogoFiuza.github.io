@@ -1,0 +1,99 @@
+/* importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Permanent+Marker&display=swap');
+
+
+body {
+  background-color: black;
+}
+
+.hello_word {
+  max-width: 1026px;
+  margin-top: 0.9em;
+  margin-left: 0.8em;
+
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9em;
+  line-height: 137px;
+
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #57438F;
+  mix-blend-mode: screen;
+  border: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.avatar{
+  position: absolute;
+  width: 25em;
+  height: 25em;
+  left: 47em;
+  bottom: 311px;
+  top: 25%;
+
+  border-radius: 89px;
+}
+
+.i_am{
+  margin-left: 3.8em;
+  margin-top: 0.3em;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: #FFFAFA;
+}
+
+.retangle_1{
+  position: absolute;
+  width: 17em;
+  height: 21em;
+  left: 850px;
+  top: 37%;
+  opacity : 0.3;
+
+  background: #5B438F;
+  border-radius: 50px;
+}
+
+.retangle_2{
+  position: absolute;
+  width: 17em;
+  height: 21em;
+  left: 831px;
+  top: 35%;
+  opacity : 0.3;
+
+  background: #765dac;
+  border-radius: 50px;
+}
+
+.contact_me{
+  font-family: Oswald;
+  font-size: 20px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 131px;
+  top: 550px;
+
+  background: #C4C4C4;
+  border-radius: 10px;
+}
+
+.my_project{
+  font-family: Oswald;
+  font-size: 20px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 434.5px;
+  top: 550px;
+
+  background: #C4C4C4;
+  border-radius: 10px;
+}
