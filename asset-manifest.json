@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.27aed1d2.chunk.css",
-    "main.js": "/my-app/static/js/main.2a27f93a.chunk.js",
-    "main.js.map": "/my-app/static/js/main.2a27f93a.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.bba2020d.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.bba2020d.js.map",
-    "static/js/2.7b761544.chunk.js": "/my-app/static/js/2.7b761544.chunk.js",
-    "static/js/2.7b761544.chunk.js.map": "/my-app/static/js/2.7b761544.chunk.js.map",
-    "static/js/3.627ae07f.chunk.js": "/my-app/static/js/3.627ae07f.chunk.js",
-    "static/js/3.627ae07f.chunk.js.map": "/my-app/static/js/3.627ae07f.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.27aed1d2.chunk.css.map": "/my-app/static/css/main.27aed1d2.chunk.css.map",
-    "static/js/2.7b761544.chunk.js.LICENSE.txt": "/my-app/static/js/2.7b761544.chunk.js.LICENSE.txt",
-    "static/media/avatar.6fdf3333.png": "/my-app/static/media/avatar.6fdf3333.png",
-    "static/media/profile-pic.56516f29.png": "/my-app/static/media/profile-pic.56516f29.png"
+    "main.css": "/static/css/main.27aed1d2.chunk.css",
+    "main.js": "/static/js/main.2a27f93a.chunk.js",
+    "main.js.map": "/static/js/main.2a27f93a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4644a119.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4644a119.js.map",
+    "static/js/2.7b761544.chunk.js": "/static/js/2.7b761544.chunk.js",
+    "static/js/2.7b761544.chunk.js.map": "/static/js/2.7b761544.chunk.js.map",
+    "static/js/3.627ae07f.chunk.js": "/static/js/3.627ae07f.chunk.js",
+    "static/js/3.627ae07f.chunk.js.map": "/static/js/3.627ae07f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.27aed1d2.chunk.css.map": "/static/css/main.27aed1d2.chunk.css.map",
+    "static/js/2.7b761544.chunk.js.LICENSE.txt": "/static/js/2.7b761544.chunk.js.LICENSE.txt",
+    "static/media/avatar.6fdf3333.png": "/static/media/avatar.6fdf3333.png",
+    "static/media/profile-pic.56516f29.png": "/static/media/profile-pic.56516f29.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bba2020d.js",
+    "static/js/runtime-main.4644a119.js",
     "static/js/2.7b761544.chunk.js",
     "static/css/main.27aed1d2.chunk.css",
     "static/js/main.2a27f93a.chunk.js"
