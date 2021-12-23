@@ -5,7 +5,7 @@ function Header(){
   const logo = "<D/>"
   return (
     <nav>
-      <h1 className="logo">{ logo }</h1>
+      <h1 className="logo rotate-center">{ logo }</h1>
       <ul className='menu'>
         <li>About me</li>
         <li>Projects</li>
