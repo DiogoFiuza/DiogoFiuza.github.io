@@ -2,6 +2,10 @@ import React from "react";
 import '../styles/Aboutme.css'
 import profile_pic from '../imagens/profile-pic.png'
 import download_icon from '../imagens/download_icon.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function Aboutme(){
   return (
@@ -9,7 +13,7 @@ function Aboutme(){
         <h1 className="aboutMe_title">About Me</h1>
         <hr className='line_below_title' />
       <div className='aboutMe_container'>
-          <div className='aboutMe'>
+          <div data-aos="fade-up" className='aboutMe'>
             <img src={ profile_pic } alt="my_picture" />
             <span className="name">Diogo Fiuza Palmeira</span>
             <span className="title">Web Developer Full Stack Júnior</span>
