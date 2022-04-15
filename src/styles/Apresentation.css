@@ -2,13 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Permanent+Marker&display=swap');
 
 
-
-
 .hello_word {
-  max-width: 1026px;
-  margin-top: 0.9em;
-  margin-left: 0.8em;
-
   font-family: Permanent Marker;
   font-style: normal;
   font-weight: normal;
@@ -23,20 +17,8 @@
   border: 1px solid rgba(0, 0, 0, 0.54);
 }
 
-.avatar{
-  position: absolute;
-  width: 25em;
-  height: 25em;
-  left: 47em;
-  bottom: 311px;
-  top: 25%;
 
-  border-radius: 89px;
-}
-
-.i_am{
-  margin-left: 3.8em;
-  margin-top: 0.3em;
+.i_am {
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
@@ -46,14 +28,45 @@
   color: #FFFAFA;
 }
 
+.apresentation {
+  display: flex;
+  padding: 5rem 0;
+  justify-content: space-evenly;
+}
+
+.main-retangle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+}
+
+.apresentation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.avatar {
+  position: absolute;
+  width: 25em;
+  height: 25em;
+  bottom: -1rem;
+  left: -5rem;
+  border-radius: 89px;
+}
+
 .retangle_1{
   position: absolute;
   width: 17em;
   height: 21em;
-  left: 850px;
-  top: 37%;
   opacity : 0.3;
-
+  left: 3rem;
+  bottom: -2rem;
   background: #5B438F;
   border-radius: 50px;
 }
@@ -62,10 +75,9 @@
   position: absolute;
   width: 17em;
   height: 21em;
-  left: 831px;
-  top: 35%;
   opacity : 0.3;
-
+  left: 5px;
+  bottom: -1rem;
   background: #765dac;
   border-radius: 50px;
 }
