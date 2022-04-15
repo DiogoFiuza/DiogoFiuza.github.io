@@ -1,0 +1,35 @@
+.carousel {
+  border-style: solid;
+  border-color: aliceblue;
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  overflow-x: auto;
+  text-align: center;
+  height: 20rem;
+  width: 90%;
+}
+
+.cardOfProject {
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.212) 0 0 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 550px;
+}
+
+.projImage{
+  width: 20px;
+}
+
+.buttonLink{
+  background-color: grey;
+  width: 70px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 15px;
+}
