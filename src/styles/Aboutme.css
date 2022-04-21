@@ -42,9 +42,10 @@
   text-align: justify;
   color: #000000;
 
-  margin-top: 2.5em;
+  margin-top: 2em;
   margin-left: 1em;
   margin-right: 1em;
+  margin-bottom: 1.5em;
 }
 
 .aboutMe {
@@ -73,7 +74,6 @@
 }
 
 .title {
-  /* left: 4.72%; */
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
@@ -83,15 +83,21 @@
   letter-spacing: 0.02em;
   color: #000000;
 }
+.aboutme_text_container{
+  flex-direction: column;
+  justify-items: center;
+}
 
 .curriculo_button{
-  justify-content: center;
-  padding: 5px;
-  width: 200px;
-  margin-top: 5%;
-  margin-left: 34%;
+  background-color: #5b438fc2;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20vw;
 }
 
 .download_icon {
   height: 20px;
+  color: aliceblue;
 }

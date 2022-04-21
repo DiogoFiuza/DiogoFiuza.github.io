@@ -19,10 +19,12 @@ function Aboutme(){
             <span className="title">Web Developer Full Stack Júnior</span>
           </div>
           <hr className='line_divides_text'/>
-          <p className="aboutme_text">Sou um Dev de 24 anos natural de Brasília, em busca de desafios que possam me desenvolver. Atualmente sou formado em Administração, faço graduação em Análise e Desenvolvimento de Sistemas, curso de desenvovimento Full Stack na Trybe e inglês na Wise up. Gosto de aprender e de criar conexões, nas horas vagas gosto de bater uma bolinha e jogar uns games. 
-          <br />
-          <a className='curriculo_button' href="Currículo-Diogo.pdf" download>Currículo <img className='download_icon' src={download_icon} alt="download" /> </a>
-          </p>
+          <div className="aboutme_text_container">
+            <p className="aboutme_text">Sou um Dev de 24 anos natural de Brasília, em busca de desafios que possam me desenvolver. Atualmente sou formado em Administração, faço graduação em Análise e Desenvolvimento de Sistemas, curso de desenvovimento Full Stack na Trybe e inglês na Wise up. Gosto de aprender e de criar conexões, nas horas vagas gosto de bater uma bolinha e jogar uns games. 
+            <br />
+            </p>
+            <a className='curriculo_button' href="Currículo - Diogo.pdf" download>Currículo <img className='download_icon' src={download_icon} alt="download" /> </a>
+          </div>
       </div>
     </>
   );
