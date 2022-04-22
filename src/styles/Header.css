@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-nav {
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 .logo {
-  font-size: 2.4em;
+  font-size: 2em;
   font-family: Fredoka One;
   color: #FFFAFA;
-  margin-top: 1.1em;
+  margin-top: 0.1em;
   margin-left: 3em;
 }
 
@@ -54,22 +48,25 @@ nav {
   }
 }
 
-
-.menu {
-  width: 60%;
-  display: flex;
+.luxbar-menu {
+  background-color: rgba(34, 33, 33, 0.541);
   list-style: none;
   justify-content: space-around;
   color: #FFFAFA;
+  height: 5em;
 }
 
-.menu li {
+.luxbar-item {
   font-family: Oswald;
-  font-size: 2em;
-  margin-top: 1em;
+  font-size: 25px;
+  align-self: center;
 }
 
-.menu li:hover{
+a:visited {
+  color: inherit;
+}
+
+a:hover {
   color: blueviolet;
 }
 

@@ -9,13 +9,15 @@ export default function Footer() {
       <h1 className="title-contact" id="Contacts">Contact Me</h1>
       <hr className="line_below_title" />
       <section className="contact-container">
-        <div className="contact-box shadow-drop-2-lr"><BsInstagram className="contact-icon rotate-center" /></div>
-        <div className="contact-box">
-          {' '}
+        <a className="contact-box shadow-drop-2-lr" href="https://www.instagram.com/fiuzadiogo/" target="_blank" rel="noreferrer">
+          <BsInstagram className="contact-icon rotate-center" />
+        </a>
+        <a className="contact-box" href="https://github.com/DiogoFiuza" target="_blank" rel="noreferrer">
           <BsGithub className="contact-icon rotate-center" />
-          {' '}
-        </div>
-        <div className="contact-box"><BsLinkedin className="contact-icon rotate-center" /></div>
+        </a>
+        <a className="contact-box" href="https://www.instagram.com/fiuzadiogo/" target="_blank" rel="noreferrer">
+          <BsLinkedin className="contact-icon rotate-center" />
+        </a>
       </section>
       <img className="hand-image" src={hand} alt="Rock'n roll hand" />
       <footer><p>Criado por Diogo Fiuza </p></footer>
