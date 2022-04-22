@@ -94,3 +94,13 @@
 .download_icon {
   height: 20px;
 }
+
+@media (max-width: 765px) {
+  .aboutMe_container {
+    display: flex;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
