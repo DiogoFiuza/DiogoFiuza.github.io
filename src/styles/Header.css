@@ -2,17 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 nav {
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
+  /* justify-content: space-between; */
 }
 
 .logo {
   font-size: 2.4em;
   font-family: Fredoka One;
   color: #FFFAFA;
-  margin-top: 1.1em;
-  margin-left: 3em;
 }
 
 /* Site fonte: https://animista.net/play/basic/rotate/rotate-center */
@@ -55,21 +51,24 @@ nav {
 }
 
 
-.menu {
-  width: 60%;
-  display: flex;
+.luxbar-menu {
   list-style: none;
   justify-content: space-around;
   color: #FFFAFA;
+  height: 5em;
 }
 
-.menu li {
+.luxbar-item {
   font-family: Oswald;
-  font-size: 2em;
-  margin-top: 1em;
+  font-size: 25px;
+  align-self: center;
 }
 
-.menu li:hover{
+a:visited {
+  color: inherit;
+}
+
+a:hover{
   color: blueviolet;
 }
 

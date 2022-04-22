@@ -6,7 +6,7 @@ import { BsGithub, BsInstagram, BsLinkedin} from "react-icons/bs";
 export default function Footer(){
   return(
     <>
-      <h1 className="title-contact">Contact Me</h1>
+      <h1 className="title-contact" id="Contacts">Contact Me</h1>
       <hr className="line_below_title" />
       <section className="contact-container">
         <a href="https://github.com/DiogoFiuza" target="_blank" className="contact-box" rel="noreferrer">

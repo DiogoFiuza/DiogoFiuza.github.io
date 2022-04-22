@@ -10,7 +10,7 @@ AOS.init();
 function Aboutme(){
   return (
     <>
-        <h1 className="aboutMe_title">About Me</h1>
+        <h1 className="aboutMe_title" id="AboutMe">About Me</h1>
         <hr className='line_below_title' />
       <div className='aboutMe_container'>
           <div data-aos="fade-up" className='aboutMe'>

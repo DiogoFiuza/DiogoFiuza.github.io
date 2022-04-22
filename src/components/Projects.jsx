@@ -6,7 +6,7 @@ import '../styles/Projects.css'
 function Projects() {
   return (
     <div>
-      <h1 className="aboutMe_title">Projects</h1>
+      <h1 className="aboutMe_title" id="Projects">Projects</h1>
       <hr className='line_below_title' />
       <div className="carousel">
         { myProjects.map((proj) => (

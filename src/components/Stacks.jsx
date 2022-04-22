@@ -9,7 +9,7 @@ import { SiRedux } from 'react-icons/si';
 function Stacks() {
   return (
     <>
-      <h1 className="stacks-title">Stacks</h1>
+      <h1 className="stacks-title" id='MyStacks'>Stacks</h1>
       <hr className="line_below_title" />
       <section>
         <div className="icon-box">
