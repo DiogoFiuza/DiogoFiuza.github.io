@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Aboutme.css';
 import AOS from 'aos';
-import profilePic from '../imagens/profile-pic.png';
+import profilePic from '../imagens/profilePic.png';
 import downloadIcon from '../imagens/download_icon.png';
 import 'aos/dist/aos.css';
 
@@ -10,7 +10,7 @@ AOS.init();
 function Aboutme() {
   return (
     <>
-      <h1 className="aboutMe_title">About Me</h1>
+      <h1 className="aboutMe_title" id="AboutMe">About Me</h1>
       <hr className="line_below_title" />
       <div className="aboutMe_container">
         <div data-aos="fade-up" className="aboutMe">
@@ -28,11 +28,11 @@ function Aboutme() {
           e inglês na Wise up. Gosto de aprender e de criar conexões,
           nas horas vagas gosto de bater uma bolinha e jogar uns games.
           <br />
-          <a href="Currículo - Diogo.pdf" download="Currículo - Diogo">
-            <button type="button" className="curriculo_button">
-              Currículo
-              <img className="download_icon" src={downloadIcon} alt="download" />
-            </button>
+          <a className="curriculo_button" href="Currículo - Diogo.pdf" download>
+            Currículo
+            {' '}
+            <img className="download_icon" src={downloadIcon} alt="download" />
+            {' '}
           </a>
         </p>
       </div>
